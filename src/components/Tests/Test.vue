@@ -45,7 +45,7 @@ export default {
           answers: [
             { value: 'truefalse' },
             { value: '0' },
-            { value: '1+' },
+            { value: '1' },
             { value: 'NaN' }
           ]
         },
@@ -56,7 +56,7 @@ export default {
           answers: [
             { value: 'Новый язык программирования.' },
             { value: 'Переработанная реализация Javascript.' },
-            { value: 'Спецификация языка Javascript.+' }
+            { value: 'Спецификация языка Javascript.' }
           ]
         },
         {
@@ -65,7 +65,7 @@ export default {
           question: 'Какое из этих слов не имеет специального использования в JavaScript, никак не упомянуто в стандарте?',
           answers: [
             { value: 'this' },
-            { value: 'parent+' },
+            { value: 'parent' },
             { value: 'instanceof' },
             { value: 'new' },
             { value: 'constructor' }
@@ -76,7 +76,7 @@ export default {
           status: 'none',
           question: 'Верно ли, что null == undefined?',
           answers: [
-            { value: 'Да+' },
+            { value: 'Да' },
             { value: 'Нет' }
           ]
         },
@@ -87,7 +87,7 @@ export default {
           answers: [
             { value: 'Правда' },
             {
-              value: 'Неправда+'
+              value: 'Неправда'
             },
             {
               value: 'Как повезет'
@@ -100,7 +100,7 @@ export default {
           question: 'Объявлена функция:function F() {} Чем является F.prototype?',
           answers: [
             {
-              value: 'Обычным объектом.+'
+              value: 'Обычным объектом.'
             },
             {
               value: 'Функцией'
@@ -122,7 +122,7 @@ export default {
               value: 'undefined'
             },
             {
-              value: 'Будет ошибка.+'
+              value: 'Будет ошибка.'
             }
           ]
         },
@@ -138,7 +138,7 @@ export default {
               value: '2[object Object]'
             },
             {
-              value: '111+'
+              value: '111'
             },
             {
               value: '3'
@@ -154,7 +154,7 @@ export default {
               value: 'false, false.'
             },
             {
-              value: 'false, true.+'
+              value: 'false, true.'
             },
             {
               value: 'true, false.'
@@ -173,7 +173,7 @@ export default {
               value: 'Цифре.'
             },
             {
-              value: 'Строке.+'
+              value: 'Строке.'
             },
             {
               value: 'NaN'
@@ -185,8 +185,7 @@ export default {
       answers: [],
       rightAnswers: [2, 2, 1, 0, 1, 0, 2, 2, 1, 1],
       score: 0,
-      user: '',
-      test: []
+      user: ''
     }
   },
   methods: {
